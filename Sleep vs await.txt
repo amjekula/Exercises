@@ -1,0 +1,13 @@
+What is the output of the program below? Explain your answer.
+
+The output of the program is 0. Because on sleep, the program becomes not runnable
+for 1000 miliseconds and does not execute the ThreadB. Therefore, leaving the
+output to be it's initial value which is 0.
+
+Also, would the answer change if we were to replace: sleep(1000); with b.wait(); 
+? Why or why not?
+
+Replacing sleep(1000) with b.wait(); changes the output from 0 to 100 at this 
+program because when the function wait is called, the program locks the current
+thread and implement ThreadB. It only continues to implement ThreadExcercise where
+it stopped after ThreadB has completely ran.

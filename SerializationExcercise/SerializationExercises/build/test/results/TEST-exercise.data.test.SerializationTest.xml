@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Mjeks" name="exercise.data.test.SerializationTest" skipped="0" tests="1" time="1.661" timestamp="2021-09-01T13:58:29">
+  <properties>
+    <property name="netbeans.autoupdate.country" value="US" />
+    <property name="nb.wait.for.caches" value="true" />
+    <property name="javac.test.classpath" value="../Serialization/dist/Serialization.jar:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:build/classes:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="ant.core.lib" value="C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant.jar" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="user.dir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises" />
+    <property name="java.vm.version" value="25.171-b11" />
+    <property name="libs.MySQLDriver.classpath" value="C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
+    <property name="libs.eclipselinkmodelgen.src" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="javac.profile.cmd.line.arg" value="" />
+    <property name="jdk.home" value="C:\Program Files (x86)\Java\jdk1.8.0_171" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="libs.jpa2-persistence.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="do.archive+manifest.available" value="true" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="have.tests" value="true" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.hamcrest.classpath" value="C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="os.name" value="Windows 10" />
+    <property name="libs.beans-binding.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\beansbinding-1.2.1.jar" />
+    <property name="ap.proc.none.internal" value="" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="libs.testng.src" value="" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="os.arch" value="x86" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="user.name" value="A. Mjeks" />
+    <property name="copylibs.rebase" value="true" />
+    <property name="libs.swing-layout.maven-pom" value="" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner exercise.data.test.SerializationTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\test\results\TEST-exercise.data.test.SerializationTest.xml crashfile=C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\junitvmwatcher1065494277294123979.properties propsfile=C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\junit5225792010116694496.properties" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="manifest.encoding" value="UTF-8" />
+    <property name="ap.supported.internal" value="true" />
+    <property name="java.failonerror" value="true" />
+    <property name="libs.jaxws21.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\docs\jaxws-api-doc.zip" />
+    <property name="includes" value="**" />
+    <property name="user.country" value="US" />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="javac.classpath" value="../Serialization/dist/Serialization.jar:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar" />
+    <property name="libs.spring-framework400.classpath" value="C:\Program Files (x86)\NetBeans 8.2\ide\modules\org-apache-commons-logging.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\cglib-2.2.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-aop-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-aspects-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-beans-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-build-src-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-context-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-context-support-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-core-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-expression-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-framework-bom-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-instrument-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-instrument-tomcat-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-jdbc-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-jms-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-messaging-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-orm-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-oxm-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-test-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-tx-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-web-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-webmvc-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-webmvc-portlet-4.0.1.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-4\spring-websocket-4.0.1.RELEASE.jar" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="netbeans.home" value="C:\Program Files (x86)\NetBeans 8.2\platform" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\endorsed" />
+    <property name="netbeans.dynamic.classpath" value="C:\Program Files (x86)\NetBeans 8.2\platform\core\asm-all-5.0.1.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\core-base.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\core.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\org-netbeans-libs-asm.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\org-openide-filesystems-compat8.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\org-openide-filesystems.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\core-base_ja.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\core-base_pt_BR.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\core-base_ru.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\core-base_zh_CN.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\core_ja.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\core_pt_BR.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\core_ru.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\core_zh_CN.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_ja.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_pt_BR.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_ru.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-netbeans-libs-asm_zh_CN.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_ja.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_pt_BR.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_ru.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-openide-filesystems-compat8_zh_CN.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files (x86)\NetBeans 8.2\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files (x86)\NetBeans 8.2\nb\core\org-netbeans-upgrader.jar;C:\Program Files (x86)\NetBeans 8.2\nb\core\locale\core_nb.jar;C:\Program Files (x86)\NetBeans 8.2\nb\core\locale\core_nb_ja.jar;C:\Program Files (x86)\NetBeans 8.2\nb\core\locale\core_nb_pt_BR.jar;C:\Program Files (x86)\NetBeans 8.2\nb\core\locale\core_nb_ru.jar;C:\Program Files (x86)\NetBeans 8.2\nb\core\locale\core_nb_zh_CN.jar;C:\Program Files (x86)\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files (x86)\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files (x86)\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Program Files (x86)\NetBeans 8.2\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="libs.hibernate4-support.src" value="" />
+    <property name="netbeans.productversion" value="NetBeans IDE 8.2 (Build 201609300101)" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="do.archive" value="true" />
+    <property name="netbeans.autoupdate.language" value="en" />
+    <property name="libs.ucanaccess.javadoc" value="" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="jar.index.metainf" value="false" />
+    <property name="ant.file.type.SerializationExercises-impl" value="file" />
+    <property name="javac.debug" value="true" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="file.separator" value="\" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="mkdist.disabled" value="false" />
+    <property name="javac.test.processorpath" value="../Serialization/dist/Serialization.jar:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:build/classes:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
+    <property name="netbeans.buildnumber" value="201609300101" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="user.variant" value="" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen_2.5.2.v20140319-9ad6abd.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="libs.hibernate4-persistencemodelgen.javadoc" value="" />
+    <property name="libs.ucanaccess.classpath" value="C:\Users\A. Mjeks\Documents\IT Assignments\2nd Year\APPLICATIONS DEVELOPMENT\APPLICATIONS DEVELOPMENT PRACTICE 2\Term 4\217164692_2B_Mjekula_ADP_Project2\Assignment\UCanAccess-4.0.4-bin\UCanAccess-4.0.4-bin\ucanaccess-4.0.4.jar;C:\Users\A. Mjeks\Documents\IT Assignments\2nd Year\APPLICATIONS DEVELOPMENT\APPLICATIONS DEVELOPMENT PRACTICE 2\Term 4\217164692_2B_Mjekula_ADP_Project2\Assignment\UCanAccess-4.0.4-bin\UCanAccess-4.0.4-bin\lib\commons-lang-2.6.jar;C:\Users\A. Mjeks\Documents\IT Assignments\2nd Year\APPLICATIONS DEVELOPMENT\APPLICATIONS DEVELOPMENT PRACTICE 2\Term 4\217164692_2B_Mjekula_ADP_Project2\Assignment\UCanAccess-4.0.4-bin\UCanAccess-4.0.4-bin\lib\commons-logging-1.1.3.jar;C:\Users\A. Mjeks\Documents\IT Assignments\2nd Year\APPLICATIONS DEVELOPMENT\APPLICATIONS DEVELOPMENT PRACTICE 2\Term 4\217164692_2B_Mjekula_ADP_Project2\Assignment\UCanAccess-4.0.4-bin\UCanAccess-4.0.4-bin\lib\hsqldb.jar;C:\Users\A. Mjeks\Documents\IT Assignments\2nd Year\APPLICATIONS DEVELOPMENT\APPLICATIONS DEVELOPMENT PRACTICE 2\Term 4\217164692_2B_Mjekula_ADP_Project2\Assignment\UCanAccess-4.0.4-bin\UCanAccess-4.0.4-bin\lib\jackcess-2.1.11.jar" />
+    <property name="libs.jaxb.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\ide\docs\jaxb-api-doc.zip" />
+    <property name="ant.home" value="C:\Program Files (x86)\NetBeans 8.2\extide\ant" />
+    <property name="libs.junit_4.src" value="C:\Program Files (x86)\NetBeans 8.2\platform\docs\junit-4.12-sources.jar" />
+    <property name="libs.testng.classpath" value="C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\testng-6.8.1-dist.jar" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_171\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Java\jdk1.8.0_171\bin;C:\Program Files (x86)\Java\jre1.8.0_171\bin;C:\Program Files\Java\jdk-11.0.9\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\dotnet\;C:\Users\A. Mjeks\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2021.1.3\bin;;C:\Users\A. Mjeks\.dotnet\tools;C:\Program Files\Microsoft VS Code\bin;C:\Users\A. Mjeks\AppData\Roaming\npm;." />
+    <property name="javadoc.author" value="false" />
+    <property name="ant.file.type.SerializationExercises" value="file" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.spring-framework400.src" value="" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="basedir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises" />
+    <property name="libs.jpa20-persistence.maven-pom" value="" />
+    <property name="jar.compress" value="false" />
+    <property name="path.separator" value=";" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.jaxws21.classpath" value="C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\ha-api.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\javax.mail_1.4.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\management-api.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\policy.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\stax2-api.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\woodstox-core-asl.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\api\javax.annotation.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\jaxws22\api\saaj-api.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\activation.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="compile.on.save" value="true" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
+    <property name="user.language" value="en" />
+    <property name="testng.mode" value="testng" />
+    <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
+    <property name="manifest.available" value="true" />
+    <property name="libs.spring-framework300.maven-pom" value="" />
+    <property name="run.test.classpath" value="../Serialization/dist/Serialization.jar:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:build/classes:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="test.binaryexcludes" value="" />
+    <property name="libs.swing-layout.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\platform\docs\swing-layout-1.0.4-doc.zip" />
+    <property name="sun.java2d.dpiaware" value="true" />
+    <property name="libs.hibernate4-persistence.maven-pom" value="" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|Mjeks" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.class.version" value="52.0" />
+    <property name="libs.hibernate4-persistencemodelgen.maven-pom" value="" />
+    <property name="libs.eclipselink.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="user.properties.file" value="C:\Users\A. Mjeks\AppData\Roaming\NetBeans\8.2\build.properties" />
+    <property name="runtime.encoding" value="UTF-8" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.JAXB-ENDORSED.javadoc" value="" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.spring-framework300.src" value="" />
+    <property name="empty.dir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\empty" />
+    <property name="version-output" value="java version &quot;1.8" />
+    <property name="test.binarytestincludes" value="" />
+    <property name="libs.hibernate4-persistencemodelgen.src" value="" />
+    <property name="javadoc.preview" value="true" />
+    <property name="libs.jpa20-persistence.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_171\jre" />
+    <property name="debug.test.classpath" value="../Serialization/dist/Serialization.jar:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:build/classes:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
+    <property name="ant.file.SerializationExercises-impl" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\nbproject\build-impl.xml" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="libs.MySQLDriver.maven-pom" value="" />
+    <property name="libs.hibernate4-persistence.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|Mjeks" />
+    <property name="libs.junit_4.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\platform\docs\junit-4.12-javadoc.jar" />
+    <property name="run.classpath" value="../Serialization/dist/Serialization.jar:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:build/classes" />
+    <property name="jna.boot.library.name" value="jnidispatch-422" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
+    <property name="libs.jpa2-persistence.maven-pom" value="" />
+    <property name="annotation.processing.enabled.in.editor" value="false" />
+    <property name="libs.hibernate4-support.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar" />
+    <property name="nb.native.filechooser" value="false" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="javac.deprecation" value="false" />
+    <property name="javadoc.use" value="true" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="javac.processorpath" value="../Serialization/dist/Serialization.jar:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar" />
+    <property name="libs.hamcrest.maven-pom" value="" />
+    <property name="javac.compilerargs" value="" />
+    <property name="ant.file" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build.xml" />
+    <property name="libs.beans-binding.maven-pom" value="" />
+    <property name="libs.hibernate4-support.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="libs.beans-binding.src" value="" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.swing-layout.src" value="C:\Program Files (x86)\NetBeans 8.2\platform\docs\swing-layout-1.0.4-src.zip" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="netbeans.user" value="C:\Users\A. Mjeks\AppData\Roaming\NetBeans\8.2" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\A5F75~1.MJE\AppData\Local\Temp\" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
+    <property name="jna.loaded" value="true" />
+    <property name="junit.available" value="true" />
+    <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_171\jre\bin" />
+    <property name="have.sources" value="true" />
+    <property name="libs.hamcrest.javadoc" value="" />
+    <property name="debug.classpath" value="../Serialization/dist/Serialization.jar:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:build/classes" />
+    <property name="javadoc.private" value="false" />
+    <property name="test.src.dir" value="test" />
+    <property name="ap.processors.internal" value="" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="dist.jar" value="dist/SerializationExercises.jar" />
+    <property name="libs.spring-framework400.maven-pom" value="" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.project.name" value="SerializationExercises" />
+    <property name="netbeans.hash.code" value="unique=NB_EXTIDE_JAVA01903d571-0e8e-4cb1-aadf-741f3ce97fad_4e69c23a-ee97-4f42-b089-e69ee1f7ba7b" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\A. Mjeks\AppData\Roaming\NetBeans" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="libs.ucanaccess.src" value="" />
+    <property name="libs.spring-framework400.javadoc" value="" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="user.home" value="C:\Users\A. Mjeks" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="debug-args-line" value="-Xdebug" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="jar.index" value="false" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="do.archive+main.class.available" value="true" />
+    <property name="reference.Serialization.jar" value="../Serialization/dist/Serialization.jar" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.javac-api.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\nb-javac-api.jar" />
+    <property name="java.version" value="1.8.0_171" />
+    <property name="run.jvmargs.ide" value="" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.MySQLDriver.javadoc" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="platform.java" value="C:\Program Files (x86)\Java\jdk1.8.0_171\jre/bin/java" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="libs.ucanaccess.maven-pom" value="" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="annotation.processing.processor.options" value="" />
+    <property name="libs.testng.maven-pom" value="" />
+    <property name="project.Serialization" value="../Serialization" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="jdk.launcher.addexports.5" value="java.management/sun.management=ALL-UNNAMED" />
+    <property name="jdk.launcher.addexports.4" value="java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED" />
+    <property name="jdk.launcher.addexports.3" value="java.desktop/sun.awt.im=ALL-UNNAMED" />
+    <property name="work.dir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises" />
+    <property name="jdk.launcher.addexports.2" value="java.desktop/java.awt.peer=ALL-UNNAMED" />
+    <property name="libs.jaxb.classpath" value="C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\activation.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="jdk.launcher.addexports.1" value="java.base/jdk.internal.jrtfs=ALL-UNNAMED" />
+    <property name="jdk.launcher.addexports.0" value="java.desktop/sun.awt=ALL-UNNAMED" />
+    <property name="do.depend" value="false" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="libs.swing-layout.classpath" value="C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\swing-layout-1.0.4.jar" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="javac.source" value="1.8" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="nb.junit.batch" value="true" />
+    <property name="junit.forkmode" value="perTest" />
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\classes" />
+    <property name="javac.target" value="1.8" />
+    <property name="built-jar.properties" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\built-jar.properties" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="src.dir" value="src" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="libs.jpa2-persistence.src" value="" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="libs.jpa20-persistence.src" value="" />
+    <property name="ant.file.SerializationExercises" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build.xml" />
+    <property name="ignore.failing.tests" value="true" />
+    <property name="dist.dir" value="dist" />
+    <property name="testng.debug.mode" value="" />
+    <property name="javac.fork" value="false" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="default.javac.source" value="1.8" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="libs.MySQLDriver.src" value="" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="java.runtime.version" value="1.8.0_171-b11" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="default.javac.target" value="1.8" />
+    <property name="libs.junit_4.classpath" value="C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar" />
+    <property name="user.timezone" value="" />
+    <property name="nb.junit.single" value="false" />
+    <property name="netbeans.dirs" value="C:\Program Files (x86)\NetBeans 8.2\nb;C:\Program Files (x86)\NetBeans 8.2\ergonomics;C:\Program Files (x86)\NetBeans 8.2\ide;C:\Program Files (x86)\NetBeans 8.2\extide;C:\Program Files (x86)\NetBeans 8.2\java;C:\Program Files (x86)\NetBeans 8.2\apisupport;C:\Program Files (x86)\NetBeans 8.2\webcommon;C:\Program Files (x86)\NetBeans 8.2\websvccommon;C:\Program Files (x86)\NetBeans 8.2\enterprise;C:\Program Files (x86)\NetBeans 8.2\mobility;C:\Program Files (x86)\NetBeans 8.2\profiler;C:\Program Files (x86)\NetBeans 8.2\python;C:\Program Files (x86)\NetBeans 8.2\php;C:\Program Files (x86)\NetBeans 8.2\identity;C:\Program Files (x86)\NetBeans 8.2\harness;C:\Program Files (x86)\NetBeans 8.2\cnd;C:\Program Files (x86)\NetBeans 8.2\cndext;C:\Program Files (x86)\NetBeans 8.2\dlight;C:\Program Files (x86)\NetBeans 8.2\groovy;C:\Program Files (x86)\NetBeans 8.2\extra;C:\Program Files (x86)\NetBeans 8.2\javacard;C:\Program Files (x86)\NetBeans 8.2\javafx" />
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext" />
+    <property name="libs.absolutelayout.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\AbsoluteLayout.jar" />
+    <property name="excludes" value="" />
+    <property name="libs.jpa2-persistence.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
+    <property name="java.class.path" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\Serialization\dist\Serialization.jar;C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\classes;C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\test\classes;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-junit4.jar" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="do.mkdist" value="true" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="libs.jpa20-persistence.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar" />
+    <property name="os.version" value="10.0" />
+    <property name="application.args" value="" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="main.class.available" value="true" />
+    <property name="sun.desktop" value="windows" />
+    <property name="libs.hibernate4-persistence.src" value="" />
+    <property name="libs.hibernate4-support.maven-pom" value="" />
+    <property name="nb.internal.action.name" value="test" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\eclipselink\eclipselink.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\eclipselink\javax.persistence_2.1.0.v201304241213.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
+    <property name="libs.beans-binding.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\docs\beansbinding-1.2.1-doc.zip" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="libs.CopyLibs.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.spring-framework300.classpath" value="C:\Program Files (x86)\NetBeans 8.2\ide\modules\org-apache-commons-logging.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\cglib-2.2.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-aop-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-aspects-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-beans-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-build-src-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-context-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-context-support-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-core-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-expression-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-framework-bom-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-instrument-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-jdbc-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-jms-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-orm-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-oxm-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-struts-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-test-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-tx-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-web-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-webmvc-3.2.7.RELEASE.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.2.7.RELEASE.jar" />
+    <property name="libs.hamcrest.src" value="" />
+    <property name="run.jvmargs" value="" />
+    <property name="libs.hibernate4-persistence.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\antlr-2.7.7.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\c3p0-0.9.2.1.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-c3p0-4.3.1.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\mchange-commons-java-0.2.3.4.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\dom4j-1.6.1.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\ehcache-core-2.4.3.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-ehcache-4.3.1.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-core-4.3.1.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\jboss-logging-3.1.3.GA.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-commons-annotations-4.0.4.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-entitymanager-4.3.1.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\javassist-3.18.1-GA.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-api-1.6.1.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\slf4j-simple-1.6.1.jar;C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpa-2.1-api-1.0.0.Final.jar" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="dist.archive.excludes" value="" />
+    <property name="libs.testng.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\platform\docs\testng-6.8.1-javadoc.zip" />
+    <property name="user.script" value="" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\postgresql-9.4.1209.jar" />
+    <property name="libs.hibernate4-persistencemodelgen.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\hibernate4\hibernate-jpamodelgen-4.3.1.Final.jar" />
+    <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="main.class" value="exercises.TestApplication" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="jdkBug6558476" value="false" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="platform.active" value="default_platform" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+  </properties>
+  <testcase classname="exercise.data.test.SerializationTest" name="simpleSerializationTest" time="1.52" />
+  <system-out><![CDATA[property1 = 0 property2 = 0 sourceIdentifier = null ComplexTypeProperty1 = 0 ComplexTypeProperty2 =  0
+property1 = 1 property2 = 1 sourceIdentifier = null ComplexTypeProperty1 = 1 ComplexTypeProperty2 =  1
+property1 = 2 property2 = 2 sourceIdentifier = null ComplexTypeProperty1 = 2 ComplexTypeProperty2 =  2
+property1 = 3 property2 = 3 sourceIdentifier = null ComplexTypeProperty1 = 3 ComplexTypeProperty2 =  3
+property1 = 4 property2 = 4 sourceIdentifier = null ComplexTypeProperty1 = 4 ComplexTypeProperty2 =  4
+property1 = 5 property2 = 5 sourceIdentifier = null ComplexTypeProperty1 = 5 ComplexTypeProperty2 =  5
+property1 = 6 property2 = 6 sourceIdentifier = null ComplexTypeProperty1 = 6 ComplexTypeProperty2 =  6
+property1 = 7 property2 = 7 sourceIdentifier = null ComplexTypeProperty1 = 7 ComplexTypeProperty2 =  7
+property1 = 8 property2 = 8 sourceIdentifier = null ComplexTypeProperty1 = 8 ComplexTypeProperty2 =  8
+property1 = 9 property2 = 9 sourceIdentifier = null ComplexTypeProperty1 = 9 ComplexTypeProperty2 =  9
+property1 = 10 property2 = 10 sourceIdentifier = null ComplexTypeProperty1 = 10 ComplexTypeProperty2 =  10
+property1 = 11 property2 = 11 sourceIdentifier = null ComplexTypeProperty1 = 11 ComplexTypeProperty2 =  11
+property1 = 12 property2 = 12 sourceIdentifier = null ComplexTypeProperty1 = 12 ComplexTypeProperty2 =  12
+property1 = 13 property2 = 13 sourceIdentifier = null ComplexTypeProperty1 = 13 ComplexTypeProperty2 =  13
+property1 = 14 property2 = 14 sourceIdentifier = null ComplexTypeProperty1 = 14 ComplexTypeProperty2 =  14
+property1 = 15 property2 = 15 sourceIdentifier = null ComplexTypeProperty1 = 15 ComplexTypeProperty2 =  15
+property1 = 16 property2 = 16 sourceIdentifier = null ComplexTypeProperty1 = 16 ComplexTypeProperty2 =  16
+property1 = 17 property2 = 17 sourceIdentifier = null ComplexTypeProperty1 = 17 ComplexTypeProperty2 =  17
+property1 = 18 property2 = 18 sourceIdentifier = null ComplexTypeProperty1 = 18 ComplexTypeProperty2 =  18
+property1 = 19 property2 = 19 sourceIdentifier = null ComplexTypeProperty1 = 19 ComplexTypeProperty2 =  19
+property1 = 20 property2 = 20 sourceIdentifier = null ComplexTypeProperty1 = 20 ComplexTypeProperty2 =  20
+property1 = 21 property2 = 21 sourceIdentifier = null ComplexTypeProperty1 = 21 ComplexTypeProperty2 =  21
+property1 = 22 property2 = 22 sourceIdentifier = null ComplexTypeProperty1 = 22 ComplexTypeProperty2 =  22
+property1 = 23 property2 = 23 sourceIdentifier = null ComplexTypeProperty1 = 23 ComplexTypeProperty2 =  23
+property1 = 24 property2 = 24 sourceIdentifier = null ComplexTypeProperty1 = 24 ComplexTypeProperty2 =  24
+property1 = 25 property2 = 25 sourceIdentifier = null ComplexTypeProperty1 = 25 ComplexTypeProperty2 =  25
+property1 = 26 property2 = 26 sourceIdentifier = null ComplexTypeProperty1 = 26 ComplexTypeProperty2 =  26
+property1 = 27 property2 = 27 sourceIdentifier = null ComplexTypeProperty1 = 27 ComplexTypeProperty2 =  27
+property1 = 28 property2 = 28 sourceIdentifier = null ComplexTypeProperty1 = 28 ComplexTypeProperty2 =  28
+property1 = 29 property2 = 29 sourceIdentifier = null ComplexTypeProperty1 = 29 ComplexTypeProperty2 =  29
+property1 = 30 property2 = 30 sourceIdentifier = null ComplexTypeProperty1 = 30 ComplexTypeProperty2 =  30
+property1 = 31 property2 = 31 sourceIdentifier = null ComplexTypeProperty1 = 31 ComplexTypeProperty2 =  31
+property1 = 32 property2 = 32 sourceIdentifier = null ComplexTypeProperty1 = 32 ComplexTypeProperty2 =  32
+property1 = 33 property2 = 33 sourceIdentifier = null ComplexTypeProperty1 = 33 ComplexTypeProperty2 =  33
+property1 = 34 property2 = 34 sourceIdentifier = null ComplexTypeProperty1 = 34 ComplexTypeProperty2 =  34
+property1 = 35 property2 = 35 sourceIdentifier = null ComplexTypeProperty1 = 35 ComplexTypeProperty2 =  35
+property1 = 36 property2 = 36 sourceIdentifier = null ComplexTypeProperty1 = 36 ComplexTypeProperty2 =  36
+property1 = 37 property2 = 37 sourceIdentifier = null ComplexTypeProperty1 = 37 ComplexTypeProperty2 =  37
+property1 = 38 property2 = 38 sourceIdentifier = null ComplexTypeProperty1 = 38 ComplexTypeProperty2 =  38
+property1 = 39 property2 = 39 sourceIdentifier = null ComplexTypeProperty1 = 39 ComplexTypeProperty2 =  39
+property1 = 40 property2 = 40 sourceIdentifier = null ComplexTypeProperty1 = 40 ComplexTypeProperty2 =  40
+property1 = 41 property2 = 41 sourceIdentifier = null ComplexTypeProperty1 = 41 ComplexTypeProperty2 =  41
+property1 = 42 property2 = 42 sourceIdentifier = null ComplexTypeProperty1 = 42 ComplexTypeProperty2 =  42
+property1 = 43 property2 = 43 sourceIdentifier = null ComplexTypeProperty1 = 43 ComplexTypeProperty2 =  43
+property1 = 44 property2 = 44 sourceIdentifier = null ComplexTypeProperty1 = 44 ComplexTypeProperty2 =  44
+property1 = 45 property2 = 45 sourceIdentifier = null ComplexTypeProperty1 = 45 ComplexTypeProperty2 =  45
+property1 = 46 property2 = 46 sourceIdentifier = null ComplexTypeProperty1 = 46 ComplexTypeProperty2 =  46
+property1 = 47 property2 = 47 sourceIdentifier = null ComplexTypeProperty1 = 47 ComplexTypeProperty2 =  47
+property1 = 48 property2 = 48 sourceIdentifier = null ComplexTypeProperty1 = 48 ComplexTypeProperty2 =  48
+property1 = 49 property2 = 49 sourceIdentifier = null ComplexTypeProperty1 = 49 ComplexTypeProperty2 =  49
+property1 = 50 property2 = 50 sourceIdentifier = null ComplexTypeProperty1 = 50 ComplexTypeProperty2 =  50
+property1 = 51 property2 = 51 sourceIdentifier = null ComplexTypeProperty1 = 51 ComplexTypeProperty2 =  51
+property1 = 52 property2 = 52 sourceIdentifier = null ComplexTypeProperty1 = 52 ComplexTypeProperty2 =  52
+property1 = 53 property2 = 53 sourceIdentifier = null ComplexTypeProperty1 = 53 ComplexTypeProperty2 =  53
+property1 = 54 property2 = 54 sourceIdentifier = null ComplexTypeProperty1 = 54 ComplexTypeProperty2 =  54
+property1 = 55 property2 = 55 sourceIdentifier = null ComplexTypeProperty1 = 55 ComplexTypeProperty2 =  55
+property1 = 56 property2 = 56 sourceIdentifier = null ComplexTypeProperty1 = 56 ComplexTypeProperty2 =  56
+property1 = 57 property2 = 57 sourceIdentifier = null ComplexTypeProperty1 = 57 ComplexTypeProperty2 =  57
+property1 = 58 property2 = 58 sourceIdentifier = null ComplexTypeProperty1 = 58 ComplexTypeProperty2 =  58
+property1 = 59 property2 = 59 sourceIdentifier = null ComplexTypeProperty1 = 59 ComplexTypeProperty2 =  59
+property1 = 60 property2 = 60 sourceIdentifier = null ComplexTypeProperty1 = 60 ComplexTypeProperty2 =  60
+property1 = 61 property2 = 61 sourceIdentifier = null ComplexTypeProperty1 = 61 ComplexTypeProperty2 =  61
+property1 = 62 property2 = 62 sourceIdentifier = null ComplexTypeProperty1 = 62 ComplexTypeProperty2 =  62
+property1 = 63 property2 = 63 sourceIdentifier = null ComplexTypeProperty1 = 63 ComplexTypeProperty2 =  63
+property1 = 64 property2 = 64 sourceIdentifier = null ComplexTypeProperty1 = 64 ComplexTypeProperty2 =  64
+property1 = 65 property2 = 65 sourceIdentifier = null ComplexTypeProperty1 = 65 ComplexTypeProperty2 =  65
+property1 = 66 property2 = 66 sourceIdentifier = null ComplexTypeProperty1 = 66 ComplexTypeProperty2 =  66
+property1 = 67 property2 = 67 sourceIdentifier = null ComplexTypeProperty1 = 67 ComplexTypeProperty2 =  67
+property1 = 68 property2 = 68 sourceIdentifier = null ComplexTypeProperty1 = 68 ComplexTypeProperty2 =  68
+property1 = 69 property2 = 69 sourceIdentifier = null ComplexTypeProperty1 = 69 ComplexTypeProperty2 =  69
+property1 = 70 property2 = 70 sourceIdentifier = null ComplexTypeProperty1 = 70 ComplexTypeProperty2 =  70
+property1 = 71 property2 = 71 sourceIdentifier = null ComplexTypeProperty1 = 71 ComplexTypeProperty2 =  71
+property1 = 72 property2 = 72 sourceIdentifier = null ComplexTypeProperty1 = 72 ComplexTypeProperty2 =  72
+property1 = 73 property2 = 73 sourceIdentifier = null ComplexTypeProperty1 = 73 ComplexTypeProperty2 =  73
+property1 = 74 property2 = 74 sourceIdentifier = null ComplexTypeProperty1 = 74 ComplexTypeProperty2 =  74
+property1 = 75 property2 = 75 sourceIdentifier = null ComplexTypeProperty1 = 75 ComplexTypeProperty2 =  75
+property1 = 76 property2 = 76 sourceIdentifier = null ComplexTypeProperty1 = 76 ComplexTypeProperty2 =  76
+property1 = 77 property2 = 77 sourceIdentifier = null ComplexTypeProperty1 = 77 ComplexTypeProperty2 =  77
+property1 = 78 property2 = 78 sourceIdentifier = null ComplexTypeProperty1 = 78 ComplexTypeProperty2 =  78
+property1 = 79 property2 = 79 sourceIdentifier = null ComplexTypeProperty1 = 79 ComplexTypeProperty2 =  79
+property1 = 80 property2 = 80 sourceIdentifier = null ComplexTypeProperty1 = 80 ComplexTypeProperty2 =  80
+property1 = 81 property2 = 81 sourceIdentifier = null ComplexTypeProperty1 = 81 ComplexTypeProperty2 =  81
+property1 = 82 property2 = 82 sourceIdentifier = null ComplexTypeProperty1 = 82 ComplexTypeProperty2 =  82
+property1 = 83 property2 = 83 sourceIdentifier = null ComplexTypeProperty1 = 83 ComplexTypeProperty2 =  83
+property1 = 84 property2 = 84 sourceIdentifier = null ComplexTypeProperty1 = 84 ComplexTypeProperty2 =  84
+property1 = 85 property2 = 85 sourceIdentifier = null ComplexTypeProperty1 = 85 ComplexTypeProperty2 =  85
+property1 = 86 property2 = 86 sourceIdentifier = null ComplexTypeProperty1 = 86 ComplexTypeProperty2 =  86
+property1 = 87 property2 = 87 sourceIdentifier = null ComplexTypeProperty1 = 87 ComplexTypeProperty2 =  87
+property1 = 88 property2 = 88 sourceIdentifier = null ComplexTypeProperty1 = 88 ComplexTypeProperty2 =  88
+property1 = 89 property2 = 89 sourceIdentifier = null ComplexTypeProperty1 = 89 ComplexTypeProperty2 =  89
+property1 = 90 property2 = 90 sourceIdentifier = null ComplexTypeProperty1 = 90 ComplexTypeProperty2 =  90
+property1 = 91 property2 = 91 sourceIdentifier = null ComplexTypeProperty1 = 91 ComplexTypeProperty2 =  91
+property1 = 92 property2 = 92 sourceIdentifier = null ComplexTypeProperty1 = 92 ComplexTypeProperty2 =  92
+property1 = 93 property2 = 93 sourceIdentifier = null ComplexTypeProperty1 = 93 ComplexTypeProperty2 =  93
+property1 = 94 property2 = 94 sourceIdentifier = null ComplexTypeProperty1 = 94 ComplexTypeProperty2 =  94
+property1 = 95 property2 = 95 sourceIdentifier = null ComplexTypeProperty1 = 95 ComplexTypeProperty2 =  95
+property1 = 96 property2 = 96 sourceIdentifier = null ComplexTypeProperty1 = 96 ComplexTypeProperty2 =  96
+property1 = 97 property2 = 97 sourceIdentifier = null ComplexTypeProperty1 = 97 ComplexTypeProperty2 =  97
+property1 = 98 property2 = 98 sourceIdentifier = null ComplexTypeProperty1 = 98 ComplexTypeProperty2 =  98
+property1 = 99 property2 = 99 sourceIdentifier = null ComplexTypeProperty1 = 99 ComplexTypeProperty2 =  99
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

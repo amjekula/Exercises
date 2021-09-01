@@ -1,0 +1,9 @@
+Transient:
+The Transient keyword is used with the instance variable to eliminate it from
+the serialization process. During serialization, the value of the transient
+field or variable is not saved.
+
+Volatile:
+The Volatile keyword is used to mark the JVM and thread to read its value from
+primary memory and not utilize cached value present in the thread stack.
+It is used in concurrent programming in java.
