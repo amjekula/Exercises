@@ -13,10 +13,8 @@ import java.io.ObjectOutputStream;
  */
 public class SerializationManagement
 {
-    //static String fileFormat = "C:\\Serialized\\%1$s.dat";
-    private static final String FILEFORMAT = "C:\\Users\\A. Mjeks\\Desktop\\"
-                                                + "Athenkosi Mjekula AltronExcercise Solution\\"
-                                                 + "SerializationExcercise\\%1$s.dat";
+    //Using a relative path 
+    private static final String FILEFORMAT = System.getProperty("user.dir") + "\\%1$s.dat";
     
     public void Serialize(String dataIdentifier, Object dataObject)
     {

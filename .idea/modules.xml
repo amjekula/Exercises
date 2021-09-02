@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Athenkosi Mjekula AltronExercise Solution.iml" filepath="$PROJECT_DIR$/.idea/Athenkosi Mjekula AltronExercise Solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EvenNumbers/EvenNumbers.iml" filepath="$PROJECT_DIR$/EvenNumbers/EvenNumbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SerializationExcercise/Serialization/Serialization.iml" filepath="$PROJECT_DIR$/SerializationExcercise/Serialization/Serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SerializationExcercise/SerializationExercises/SerializationExercises.iml" filepath="$PROJECT_DIR$/SerializationExcercise/SerializationExercises/SerializationExercises.iml" />
+    </modules>
+  </component>
+</project>

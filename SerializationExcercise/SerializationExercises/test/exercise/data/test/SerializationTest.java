@@ -59,7 +59,6 @@ public class SerializationTest {
 
     @Test
     public void simpleSerializationTest() {
-
         //Making loop length less than the size of the arraylist
         for (int x = 0; x < deserializeData().size(); x++) {
             DataObject1 do1 = dataObjects.get(x);

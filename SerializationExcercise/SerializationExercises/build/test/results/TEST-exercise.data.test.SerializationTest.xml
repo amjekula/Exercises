@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Mjeks" name="exercise.data.test.SerializationTest" skipped="0" tests="1" time="1.661" timestamp="2021-09-01T13:58:29">
+<testsuite errors="0" failures="0" hostname="Mjeks" name="exercise.data.test.SerializationTest" skipped="0" tests="1" time="1.172" timestamp="2021-09-02T07:48:53">
   <properties>
     <property name="netbeans.autoupdate.country" value="US" />
     <property name="nb.wait.for.caches" value="true" />
     <property name="javac.test.classpath" value="../Serialization/dist/Serialization.jar:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:build/classes:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
     <property name="ant.core.lib" value="C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant.jar" />
     <property name="javadoc.windowtitle" value="" />
-    <property name="user.dir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises" />
+    <property name="user.dir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises" />
     <property name="java.vm.version" value="25.171-b11" />
     <property name="libs.MySQLDriver.classpath" value="C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\mysql-connector-java-5.1.23-bin.jar" />
     <property name="libs.eclipselinkmodelgen.src" value="" />
@@ -38,7 +38,7 @@
     <property name="user.name" value="A. Mjeks" />
     <property name="copylibs.rebase" value="true" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner exercise.data.test.SerializationTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\test\results\TEST-exercise.data.test.SerializationTest.xml crashfile=C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\junitvmwatcher1065494277294123979.properties propsfile=C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\junit5225792010116694496.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner exercise.data.test.SerializationTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises\build\test\results\TEST-exercise.data.test.SerializationTest.xml crashfile=C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises\build\junitvmwatcher6683852017111268389.properties propsfile=C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises\build\junit3910637520373552905.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -94,7 +94,7 @@
     <property name="libs.spring-framework400.src" value="" />
     <property name="libs.PostgreSQLDriver.src" value="" />
     <property name="sun.arch.data.model" value="32" />
-    <property name="basedir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises" />
+    <property name="basedir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises" />
     <property name="libs.jpa20-persistence.maven-pom" value="" />
     <property name="jar.compress" value="false" />
     <property name="path.separator" value=";" />
@@ -129,7 +129,7 @@
     <property name="libs.JAXB-ENDORSED.javadoc" value="" />
     <property name="libs.JWSAntTasks.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
     <property name="libs.spring-framework300.src" value="" />
-    <property name="empty.dir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\empty" />
+    <property name="empty.dir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises\build\empty" />
     <property name="version-output" value="java version &quot;1.8" />
     <property name="test.binarytestincludes" value="" />
     <property name="libs.hibernate4-persistencemodelgen.src" value="" />
@@ -137,7 +137,7 @@
     <property name="libs.jpa20-persistence.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_171\jre" />
     <property name="debug.test.classpath" value="../Serialization/dist/Serialization.jar:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:build/classes:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar:build/test/classes" />
-    <property name="ant.file.SerializationExercises-impl" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\nbproject\build-impl.xml" />
+    <property name="ant.file.SerializationExercises-impl" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises\nbproject\build-impl.xml" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
     <property name="ant.project.default-target" value="default" />
     <property name="annotation.processing.run.all.processors" value="true" />
@@ -160,7 +160,7 @@
     <property name="javac.processorpath" value="../Serialization/dist/Serialization.jar:C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar" />
     <property name="libs.hamcrest.maven-pom" value="" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build.xml" />
+    <property name="ant.file" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises\build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
     <property name="libs.hibernate4-support.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
     <property name="libs.beans-binding.src" value="" />
@@ -228,7 +228,7 @@
     <property name="jdk.launcher.addexports.5" value="java.management/sun.management=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.4" value="java.desktop/com.sun.java.swing.plaf.windows=ALL-UNNAMED" />
     <property name="jdk.launcher.addexports.3" value="java.desktop/sun.awt.im=ALL-UNNAMED" />
-    <property name="work.dir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises" />
+    <property name="work.dir" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises" />
     <property name="jdk.launcher.addexports.2" value="java.desktop/java.awt.peer=ALL-UNNAMED" />
     <property name="libs.jaxb.classpath" value="C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\activation.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files (x86)\NetBeans 8.2\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
     <property name="jdk.launcher.addexports.1" value="java.base/jdk.internal.jrtfs=ALL-UNNAMED" />
@@ -246,14 +246,14 @@
     <property name="junit.forkmode" value="perTest" />
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_171\jre\classes" />
     <property name="javac.target" value="1.8" />
-    <property name="built-jar.properties" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\built-jar.properties" />
+    <property name="built-jar.properties" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises\build\built-jar.properties" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src" />
     <property name="annotation.processing.enabled" value="true" />
     <property name="libs.jpa2-persistence.src" value="" />
     <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
     <property name="libs.jpa20-persistence.src" value="" />
-    <property name="ant.file.SerializationExercises" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build.xml" />
+    <property name="ant.file.SerializationExercises" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises\build.xml" />
     <property name="ignore.failing.tests" value="true" />
     <property name="dist.dir" value="dist" />
     <property name="testng.debug.mode" value="" />
@@ -274,7 +274,7 @@
     <property name="libs.absolutelayout.classpath" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\AbsoluteLayout.jar" />
     <property name="excludes" value="" />
     <property name="libs.jpa2-persistence.javadoc" value="C:\Program Files (x86)\NetBeans 8.2\java\modules\ext\docs\javax.persistence-2.1.0-doc.zip" />
-    <property name="java.class.path" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\Serialization\dist\Serialization.jar;C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\classes;C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExcercise Solution\SerializationExcercise\SerializationExercises\build\test\classes;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-junit4.jar" />
+    <property name="java.class.path" value="C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\Serialization\dist\Serialization.jar;C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\junit-4.12.jar;C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises\build\classes;C:\Program Files (x86)\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar;C:\Users\A. Mjeks\Desktop\Athenkosi Mjekula AltronExercise Solution\SerializationExcercise\SerializationExercises\build\test\classes;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-launcher.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-junit.jar;C:\Program Files (x86)\NetBeans 8.2\extide\ant\lib\ant-junit4.jar" />
     <property name="apple.laf.useScreenMenuBar" value="true" />
     <property name="do.mkdist" value="true" />
     <property name="libs.absolutelayout.src" value="" />
@@ -315,7 +315,7 @@
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
   </properties>
-  <testcase classname="exercise.data.test.SerializationTest" name="simpleSerializationTest" time="1.52" />
+  <testcase classname="exercise.data.test.SerializationTest" name="simpleSerializationTest" time="1.06" />
   <system-out><![CDATA[property1 = 0 property2 = 0 sourceIdentifier = null ComplexTypeProperty1 = 0 ComplexTypeProperty2 =  0
 property1 = 1 property2 = 1 sourceIdentifier = null ComplexTypeProperty1 = 1 ComplexTypeProperty2 =  1
 property1 = 2 property2 = 2 sourceIdentifier = null ComplexTypeProperty1 = 2 ComplexTypeProperty2 =  2

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Serialization">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SerializationExcercise/SerializationExercises/dist/lib/Serialization.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
